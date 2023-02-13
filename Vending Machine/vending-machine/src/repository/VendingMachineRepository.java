@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class VendingMachineRepository {
+public class VendingMachineRepository implements IVendingMachineRepository {
     private Map<String, List<Product>> stock = new HashMap<>();
     private boolean isSorted = true;
 
